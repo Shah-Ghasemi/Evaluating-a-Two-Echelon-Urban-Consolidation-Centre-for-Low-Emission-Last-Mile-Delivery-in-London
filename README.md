@@ -1,0 +1,2 @@
+# Evaluating-a-Two-Echelon-Urban-Consolidation-Centre-for-Low-Emission-Last-Mile-Delivery-in-London
+Python implementation of a two-echelon vehicle routing problem with a heterogeneous fleet (cargo e-bikes, electric vans, delivery drones, and diesel vans) using NSGA-II multi-objective optimization, validated against MILP. Includes synthetic demand generation, real street-network routing (OSMnx), and chance-constrained traffic congestion modeling.
