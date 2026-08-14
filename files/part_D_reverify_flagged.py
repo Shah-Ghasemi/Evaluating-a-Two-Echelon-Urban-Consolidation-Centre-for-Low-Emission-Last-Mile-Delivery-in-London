@@ -1,5 +1,5 @@
 # ================================================================
-# part_D_reverify_flagged_v2.py
+# part_D_reverify_flagged.py
 # Full-rigour version: since only the drone-payload dimension (not
 # the emission-scope dimension, already stabilised) remained unstable,
 # both seed count and generation budget are raised to the standard
