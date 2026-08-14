@@ -55,7 +55,7 @@ Typical run order:
 1. `part_A_milp_validation.py` (quick; validates the algorithm)
 2. `part_B_all_scales.py`, `part_B_demand_realizations.py`
 3. `congestion_robustness_analysis.py` (requires the representative-solution CSVs produced by step 2)
-4. `part_D_sensitivity_analysis.py`, then `part_D_reverify_flagged_v2.py`
+4. `part_D_sensitivity_analysis.py`, then `part_D_reverify_flagged.py`
 5. `drone_breakeven_analysis.py` (independent of all other scripts)
 
 `part_B_all_scales.py` is computationally the heaviest step (N = 100 and N = 200 in particular can take several hours). Because it checkpoints every completed seed to disk, it is safe to run it in short sessions or on a remote/free-tier notebook — if the runtime disconnects, simply re-run the same command and it resumes from the last completed seed rather than starting over.
