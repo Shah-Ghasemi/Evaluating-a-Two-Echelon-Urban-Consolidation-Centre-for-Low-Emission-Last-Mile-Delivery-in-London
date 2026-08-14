@@ -23,7 +23,7 @@ require `numpy`, `pandas`, `scipy`, `matplotlib`, `pymoo`, `osmnx`,
 | `part_B_colab_checkpointed.py` | Sections 4.2–4.3 | Google Colab (free-tier)–friendly variant of `part_B_all_scales.py` for the heavier scales (N = 100, 200), with per-seed checkpointing to Google Drive. |
 | `part_B_demand_realizations.py` | Section 4.7 | Robustness check: repeats the full pipeline across five independent demand realisations at N = 50. |
 | `part_D_sensitivity_analysis.py` | Section 4.4 | One-at-a-time sensitivity analysis (cost, emission, drone labour scenario, drone payload, emission-accounting scope) at N = 50. |
-| `part_D_reverify_flagged_v2.py` | Section 4.4 | Re-evaluates the drone-payload sensitivity dimension at full experimental rigour (20 seeds, 250 generations), after the reduced-budget run in `part_D_sensitivity_analysis.py` showed high variability. |
+| `part_D_reverify_flagged.py` | Section 4.4 | Re-evaluates the drone-payload sensitivity dimension at full experimental rigour (20 seeds, 250 generations), after the reduced-budget run in `part_D_sensitivity_analysis.py` showed high variability. |
 | `congestion_robustness_analysis.py` | Section 4.6 | Post-hoc congestion-robustness check on the representative solutions (paired Wilcoxon test, 500 scenarios, common random numbers). |
 | `drone_breakeven_analysis.py` | Section 4.5 | Closed-form calculation of the operator-to-drone ratio at which drone delivery reaches cost parity with the cargo e-bike. |
 
