@@ -71,9 +71,7 @@ Typical run order:
 If you use this code, please cite the associated paper:
 
 ```
-[Author(s)]. (2026). Two-Echelon Urban Consolidation for Low-Emission Last-Mile Delivery:
-A Chance-Constrained Multi-Objective Approach under Real-World Traffic Uncertainty.
-International Journal of Sustainable Transportation. [DOI once assigned]
+
 ```
 
 ## License
